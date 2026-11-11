@@ -2,7 +2,7 @@
 
 A full-stack prototype that shows University of Oklahoma students how full campus parking garages are before they drive there.
 
-**All occupancy data is simulated.** This app does not connect to OU, PGS, cameras, gates, or any real parking system.
+**All occupancy data is simulated.** This app does not connect to OU, PGS, cameras, gates, or any real parking system yet.
 
 Live dashboard → garage detail pages with an entry/exit feed, occupancy history charts, and a simulated hour-of-day forecast.
 
@@ -141,7 +141,3 @@ Occupancy can exceed capacity internally (cars can still enter when a garage is 
 **events** — source of truth for live occupancy (`entry` or `exit` per garage)
 
 **occupancy_snapshots** — point-in-time occupancy for charts and forecasts
-
-## License
-
-Personal / academic prototype. Not affiliated with the University of Oklahoma or OU Parking Services.
